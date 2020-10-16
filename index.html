@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Answering Your Questions</title>
+    </head>
+    <body>
+        <div id='header'>
+            <h1> Hello, I am Untung Tanujaya's AI Assistant</h1>
+        </div>
+        <div id='content'>
+            <div id='askBar'>
+                <input type='text' id="question" placeholder="Ask me something about Untung...">
+            </div>
+            <div id='answerBar'>
+                <span id='answer'></span>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <!-- Load TensorFlow.js. This is required to use the USE model. -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+        <!-- Load the USE model. -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"> </script>
+        <script src="index.js"></script>
+    </body>
+</html>
+
